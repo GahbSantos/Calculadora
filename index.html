@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+  <title>MAPA - Calculadora de Churrasco</title>
+</head>
+<body>
+  
+  <header class="header">
+    <h1 id="main-title">CALCULADORA DE CHURRASCO</h1>
+  </header>
+  <main class="main-contain"> 
+    <label for="homens">Homens:</label>
+    <input type="number" id="homens" name="homens"> 
+    <label for="mulheres">Mulheres:</label>
+    <input type="number" id="mulheres" name="mulheres"> 
+    <label for="crianças">Crianças:</label>
+    <input type="number" id="crianças" name="crianças"> 
+  </main>
+    <div class="calculate">
+  <button onclick="calcular()">Calcular</button>
+  </div>
+  <p class="paragraph">Quantidade de itens a serem comprados:</p>
+  <div class="main-list">
+  <ul id="resultados">
+    <li>0.0Kg de Carne Bovina</li>
+    <li>0.0Kg de Frango</li>
+    <li>0.0Kg de Linguiça</li>
+    <li>0.0L de Refrigerante</li>
+    <li>0.0L de Cerveja</li>
+  </ul>
+  </div>
+  <footer id="footer">
+    <p>2024 &copy; Gabriel</p>
+  </footer>
+</body>
+</html>
